@@ -3,9 +3,9 @@ Deploy [langgenius/dify](https://github.com/langgenius/dify), an LLM-based chatb
 ## Quick Start
 ```bash
 # Add the Helm repository
-helm repo add dify https://borispolonsky.github.io/dify-helm
+helm repo add dify-helm https://Jaksciley.github.io/dify-helm
 helm repo update
-helm install my-release dify/dify
+helm search repo dify-helm
 ```
 
 ## Customized Installation
